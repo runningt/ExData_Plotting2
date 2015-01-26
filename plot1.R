@@ -5,3 +5,4 @@ years <-tapply(NEI$Emissions, NEI$year, sum)
 png(file = "plot1.png", width = 480, height = 480)
 barplot(years,col=years)
 
+dev.off()
